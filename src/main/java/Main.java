@@ -20,8 +20,8 @@ public class Main extends Application {
         ((MainController) loader.getController()).setStage(primaryStage);
         primaryStage.show();
 
-        primaryStage.setMaximized(true);
         primaryStage.setScene(new Scene(root));
+        primaryStage.setMaximized(true);
         primaryStage.setTitle("Java-erlang");
         primaryStage.getIcons().add(new Image(this.getClass().getClassLoader().getResourceAsStream("icons/icon.png")));
     }

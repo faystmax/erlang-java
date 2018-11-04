@@ -4,8 +4,6 @@ apply plugin: 'idea'
 group 'erlang'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
-
 task wrapper(type: Wrapper) {
     gradleVersion = '4.10'
 }
